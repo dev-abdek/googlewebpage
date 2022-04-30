@@ -1,0 +1,133 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+ul{
+	background-color: blue;
+	text-align:center;
+	font-family: Verdana;
+	
+}
+ul li{
+	list-style: none;
+	display: inline;
+	flex-wrap: wrap-reverse;
+	color: white;
+	font-weight: normal;
+	line-height: 50px;
+	margin-left: 1rem;
+	margin-right: 1.3rem;
+	padding: 20px;
+}
+.center-mode{
+	max-width: 130rem;
+	margin: auto;
+}
+.side-right{
+	margin-left: 0px;
+	color: white; 
+}
+.google-blue-spec{
+	color: blue;
+	font-size: 100px;
+}
+.google-it-items{
+	margin-bottom: 2px;
+	line-height: 30px;
+	text-align: center;
+	margin-top: 220px;
+	padding-bottom: 1rem;
+}
+.google-red{
+	color: red;
+	font-size: 45px;
+}
+.google-yellow{
+	color: yellow;
+	font-size: 45px;
+}
+.google-blue{
+	color: blue;
+	font-size: 45px;
+}
+.google-green{
+	color: green;
+	font-size: 45px;
+}
+.rough{
+	text-align: center;
+	padding-top: 3px;
+}
+input[type="text"]{
+	margin-bottom: 20px;
+	height: 40px;
+	width: 55%;
+	border: 1px solid #e3e3e3;
+	border-radius: 15px;
+	outline: none;
+	box-shadow: 0 0 3px 3px rgba(125, 125, 125, 0.3);
+}
+input[placeholder]{
+	text-align: center;
+	font-family: verdana;
+	font-size: 15px;
+}
+button[type="search"]{
+	background-color: blue;
+	width: 12%;
+	height: 30px;
+	color: white;
+	border: 2px solid blue;
+	border-radius: 12px;
+	margin-left: 20px;
+	margin-right: 20px;
+	font-size: 15px;
+	font-family: monospace;
+}
+button[type="submit"]{
+	background-color: blue;
+	width: 16%;
+	height: 30px;
+	color: white;
+	border: 2px solid blue;
+	border-radius: 12px;
+	margin-left: 20px;
+	margin-right: 20px;
+	font-size: 15px;
+	font-family: monospace;
+}
+button:hover {
+	cursor: pointer;
+	box-shadow: 3px 3px magenta;
+}
+.foot-items{
+	margin-top: 15em;
+	margin-left: 1.3em;
+}
+a{
+	text-decoration: none;
+}
+.ads{
+	border-right: 1px solid blue;
+	margin-right: 3px;
+	margin-left: 3px;
+	padding-right: 3px;
+}
+.business{
+	border-right: 1px solid blue;
+	margin-right: 3px;
+	margin-left: 3px;
+	padding-right: 3px;
+}
+.background{
+	border-right: 1px solid blue;
+	margin-right: 5px;
+	margin-left: 0;
+	padding-right: 5px;
+}
+.foot-items-left{
+	margin-left: 60px;
+	float: right;
+}
